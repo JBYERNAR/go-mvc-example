@@ -1,0 +1,12 @@
+app:
+  name: go-mvc-example
+  environment: development
+  url: 0.0.0.0:3000
+db:
+  postgres:
+    connection: postgres
+    host: postgres
+    port: 5432
+    database: mvc
+    username: admin
+    password: admin
